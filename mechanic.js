@@ -65,3 +65,17 @@ function removeName2()
     name2 = ""
     document.querySelector(".player2").innerHTML = name2
 }
+
+function reset()
+{
+    score = 0
+    score2 = 0
+    period = 1
+    name1 = ""
+    name2 = ""
+    document.querySelector(".homeScore").innerHTML = score
+    document.querySelector(".guestScore").innerHTML = score2
+    document.querySelector(".periodtime").innerHTML = period
+    document.querySelector(".player1").innerHTML = name1
+    document.querySelector(".player2").innerHTML = name2
+}
