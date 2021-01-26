@@ -44,5 +44,35 @@
 .score{
     color: white;
     font-size: 5.5vw;
-    margin: 0px 30%;
+    margin: 1vw 30%;
+}
+.homeScore{
+    color: white;
+    margin: 4vw 0vw 0vw 45%;
+    font-size: 3vw;
+}
+.guestScore{
+    color: white;
+    margin: 4vw 0vw 0vw 45%;
+    font-size: 3vw;
+}
+.flex1{
+    margin-left: 5vw;
+}
+.button1{
+    font-size: 1.5vw;
+    /* margin: 2vw 0px 0vw 40%; */
+    margin: 3vw 3vw 0px 6vw;
+}
+.button2{
+    font-size: 1.5vw;
+    /* margin: 2vw 0px 0vw 40%; */
+}
+.period{
+    font-size: 5.5vw;
+    margin: 1vw 27%;
+}
+.periodtime{
+    margin: 4vw 0vw 0vw 45%;
+    font-size: 3vw;
 }
