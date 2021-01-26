@@ -10,7 +10,7 @@
     <script src="mechanic.js"></script>
     <div class = "grid">
         <div class = "item1">
-            <div class = "score">Home</div>
+            <div class = "whiteName">Home</div>
             <div class ="homeScore">0</div>
             <div class = "flex1">
                 <button class = "button1" onclick = "addScore()">Add</button>
@@ -18,20 +18,38 @@
             </div>
         </div>
         <div class = "item2">
-            <div class = "period">Period</div>
+            <div class = "blackName">Period</div>
             <div class ="periodtime">1</div>
+            <button class = "button3" onclick = "nextPeriod()">Next</button>
         </div>
         <div class = "item3">
-            <div class = "score">Guest</div>
+            <div class = "whiteName">Guest</div>
             <div class ="guestScore">0</div>
             <div class = "flex1">
                 <button class = "button1" onclick = "addScore2()">Add</button>
                 <button class = "button2" onclick = "minusScore2()">Minus</button>
             </div>
         </div>
-        <div class = "item4"></div>
-        <div class = "item5"></div>
-        <div class = "item6"></div>
+        <div class = "item4">
+            <div class = "blackName">Penalty</div>
+            <div class = "flex1">
+                <div class = "player1"></div>
+                <button class = "button1" onclick = "addName1()">Add</button>
+                <button class = "button2" onclick = "removeName1()">Remove</button>
+            </div>
+        </div>
+        <div class = "item5">
+            <button class = "button1" onclick = "addName1()">Reset Score</button>
+            <button class = "button2" onclick = "removeName1()">Reset Penalty</button>
+        </div>
+        <div class = "item6">
+            <div class = "blackName">Penalty</div>
+            <div class = "flex1">
+                <div class = "player2"></div>
+                <button class = "button1" onclick = "addName2()">Add</button>
+                <button class = "button2" onclick = "removeName2()">Remove</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -41,7 +41,7 @@
     background-color: white;   
     grid-area: item6; 
 }
-.score{
+.whiteName{
     color: white;
     font-size: 5.5vw;
     margin: 1vw 30%;
@@ -68,11 +68,26 @@
     font-size: 1.5vw;
     /* margin: 2vw 0px 0vw 40%; */
 }
-.period{
+.blackName{
     font-size: 5.5vw;
     margin: 1vw 27%;
 }
 .periodtime{
     margin: 4vw 0vw 0vw 45%;
     font-size: 3vw;
+}
+.button3{
+    font-size: 1.5vw;
+    margin: 3vw 0px 0px 14.5vw;
+}
+.name1{
+    font-size: 1.5vw;
+}
+.player1{
+    font-size: 3vw;
+    margin: 4vw 30% 0px 30%;
+}
+.player2{
+    font-size: 3vw;
+    margin: 4vw 30% 0px 30%;
 }
