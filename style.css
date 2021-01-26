@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 50vh 50vh;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item5 item6"
+    ;
+}
+.item1
+{
+    background-color: black;
+    grid-area: item1;   
+}
+.item2
+{
+    background-color: white;
+    grid-area: item2;    
+}
+.item3
+{
+    background-color: black; 
+    grid-area: item3;   
+}
+.item4
+{
+    background-color: white;   
+    grid-area: item4; 
+}
+.item5
+{
+    background-color: black;   
+    grid-area: item5; 
+}
+.item6
+{
+    background-color: white;   
+    grid-area: item6; 
+}
+.score{
+    color: white;
+    font-size: 5.5vw;
+    margin: 0px 30%;
+}
