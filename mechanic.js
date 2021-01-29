@@ -46,7 +46,7 @@ var name1 = ""
 function addName1()
 {
     name1 = prompt("What is the name?")   
-    document.querySelector(".player1").innerHTML = name1
+    document.querySelector(".player1").innerHTML += name1 + "<br>"
 }
 function removeName1()
 {
@@ -58,7 +58,7 @@ var name2 = ""
 function addName2()
 {
     name2 = prompt("What is the name?")   
-    document.querySelector(".player2").innerHTML = name2
+    document.querySelector(".player2").innerHTML += name2 + "<br>"
 }
 function removeName2()
 {
